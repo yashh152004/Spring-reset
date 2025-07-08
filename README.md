@@ -48,3 +48,26 @@ cd spring-reset
 ./mvnw spring-boot:run
 
 
+🌐 Example API Usage (Postman)
+http
+Copy
+Edit
+POST /jobs
+Content-Type: application/json
+
+{
+  "postProfile": "Java Developer",
+  "postDesc": "Build scalable backend systems",
+  "reqExperience": 2
+}
+Response:
+
+json
+Copy
+Edit
+{
+  "id": 1,
+  "postProfile": "Java Developer",
+  "postDesc": "Build scalable backend systems",
+  "reqExperience": 2
+}
