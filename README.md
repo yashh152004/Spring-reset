@@ -27,5 +27,24 @@ Welcome to **Spring Reset** — a powerful and lightweight Spring Boot backend b
 
 ---
 
-## 📁 Project Structure
+
+---
+
+## ⚙️ Setup Instructions
+
+> Make sure you have **Java**, **Maven**, and **MySQL** installed on your system.
+
+```bash
+# 1️⃣ Clone the repository
+git clone https://github.com/your-username/spring-reset.git
+
+# 2️⃣ Navigate to the project folder
+cd spring-reset
+
+# 3️⃣ Configure application.properties
+#    Set your DB URL, username, and password
+
+# 4️⃣ Run the project
+./mvnw spring-boot:run
+
 
